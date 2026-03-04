@@ -29,7 +29,7 @@ body {
 }
 
 .title {
-  font-size: clamp(36px, 6vw, 56px);
+  font-size: clamp(36px, 1vw, 56px);
   font-weight: 50;
   color: rgb(235, 180, 53);
   letter-spacing: -1px;
@@ -47,8 +47,8 @@ body {
 
 /* ===== 갤러리(인스타처럼 영역 내 스크롤) ===== */
 .gallery {
-  margin: 18px 0 28px;
-  height: 80vh;
+  margin: 10px 0 20px;
+  height: 40vh;
   overflow-y: auto;
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
@@ -61,7 +61,7 @@ body {
 .grid-strip {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 0; /* ✅ 여기 슬래시(/) 있던 거 제거 */
+  gap: 0;
 }
 
 /* 이미지 셀 */

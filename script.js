@@ -1,5 +1,5 @@
 // ===== 설정값 =====
-const CORRECT_PASSWORD = "iloveyou";
+const CORRECT_PASSWORD = "19930308";
 const ADDRESS_URL = "https://naver.me/FoENsEPP";
 
 // ===== 갤러리 이미지 =====
