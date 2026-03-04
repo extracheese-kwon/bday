@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>추억앨범</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page">
+
+    
+    
+    <header class="hero">
+      <h1 class="title">♡♥HAPPY BIRTHDAY♡♥</h1>
+      <p class="subtitle">💕1993.03.08💕<br>준표의 생일을 축하합니다~~ <br>
+        <br> 생일기념... <br>남친짤 대.방.출 해드려용 @>->--</p>
+    </header>
+
+    <!-- 사진배열 -->
+    <section class="gallery" aria-label="사진 갤러리">
+      <div class="grid-strip" id="gridStrip">
+      </div>
+    </section>
+
+    <!-- 오시는길 -->
+<section class="way">
+  <p class="subtitle">사진 찾다보니... 우리 정말 여기저기 많이 다녔다 
+    <br> 앞으로는 더 많이 다니자 !!!
+    <br>☆*: .｡. o(≧▽≦)o .｡.:*☆
+    <br><br> 아무튼 생일 파뤼는...
+    <br> 약속의...오후 2시?!
+    <br> 약속의...노원역.....?</p>
+
+  
+<button id="openModalBtn" type="button" button class="btn-primary btn-title-style">
+  <span class="btn-in">자세한 주소가</span>
+  <span class="btn-la">궁금 </span><span class="btn-home">하다면?</span>
+</button>
+
+  </div>
+</section>
+
+
+  <!-- 비밀번호-->
+  <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <h3 class="modal-title" id="modalTitle">비밀번호 입력</h3>
+
+      <div class="modal-body">
+        <input
+          id="passwordInput"
+          class="input"
+          type="password"
+          inputmode="numeric"
+          autocomplete="off"
+          placeholder="유료서비스 5,000원(바로 알려드려요)"
+        />
+        <p class="error" id="errorText" aria-live="polite"></p>
+      </div>
+
+      <div class="modal-actions">
+        <button class="btn-ghost" id="cancelBtn" type="button">취소</button>
+        <button class="btn-ghost2" id="confirmBtn" type="button">확인</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
